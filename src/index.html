@@ -11,29 +11,6 @@
 
  <script type="text/javascript" src="https://static-content-qas.vnforapps.com/v2/js/checkout.js"></script>
 
- <script type="text/javascript">
-  function openForm() {
-    VisanetCheckout.configure({
-      sessiontoken:'321eb33d5742e0af4e92bca1001c01c3f149985b785e18f62a99ab599a5540d6',
-      channel:'web',
-      merchantid:'341198210',
-      purchasenumber:'2020100903',
-      amount:'10.5',
-      expirationminutes:'20',
-      timeouturl:'about:blank',
-      merchantlogo:'img/comercio.png',
-      formbuttoncolor:'#000000',
-      action: 'paginarespuesta',
-      complete: function(params) {
-        alert(JSON.stringify(params));
-        console.log(params)
-        console.log(action)
-      }
-    });
-    VisanetCheckout.open();
-    
-  }
-  </script>
 </head>
 <body>
   <app-root></app-root>

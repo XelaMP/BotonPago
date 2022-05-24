@@ -1,14 +1,7 @@
 export interface User{
-    _id?: number;
-    sessiontoken: string;
+    transactionToken: string;
     channel?: string;
-    merchantid?: string;
-    purchasenumber?: number;
-    amount?: string;
-    expirationminutes?: string;
-    timeouturl?: string;
-    merchantlogo: string;
-    formbuttoncolor: string;
-    action: string;
+    email?: string;
+
   }
   
